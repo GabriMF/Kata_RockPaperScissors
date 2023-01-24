@@ -10,4 +10,10 @@ public class RockTest {
     public void justASimpleTest() {
         assertTrue(true);
     }
+
+    @Test
+    public void test_is_a_Rock(){
+        Rock rock = new Rock();
+        assertTrue(rock instanceof Rock);
+    }
 }
